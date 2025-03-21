@@ -1,10 +1,10 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    AUTH_USER = os.environ.get('AUTH_USERS', '7602994049').split(',')
+    BOT_TOKEN = "7641591924:AAF6YRdIiBAC9rdng133hPmQ_Ao_lVz1IXc"
+    API_ID = 26468828
+    API_HASH = "4693513c08d1ac6af15f95b116c29478"
+    AUTH_USER = os.environ.get('AUTH_USERS', '7517045929').split(',')
     AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
-    HOST = "https://drm-api-six.vercel.app"
-    CREDIT = " 𝙎𝘼𝙄𝙉𝙄 𝘽𝙊𝙏𝙎"
+    HOST = "https://api.masterapi.tech"
+    CREDIT = " ChIRu"
