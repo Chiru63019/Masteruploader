@@ -6,5 +6,5 @@ class Config(object):
     API_HASH = ""
     AUTH_USER = os.environ.get('AUTH_USERS', '').split(',')
     AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
-    HOST = "http://master-api-v3.vercel.app/"
+    HOST = "https://api.masterapi.tech"
     CREDIT = ""
